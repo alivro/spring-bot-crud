@@ -61,7 +61,7 @@ public class BookController {
         BookResponseDTO savedBook = bookService.save(book);
 
         if (savedBook == null)
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>(HttpStatus.CONFLICT);
 
         return new ResponseEntity<>(savedBook, HttpStatus.CREATED);
     }
