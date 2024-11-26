@@ -10,11 +10,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.alivro.springboot</groupId>
+	<groupId>com.alivro.spring</groupId>
 	<artifactId>crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootCrud</name>
 	<description>Spring Boot CRUD REST API</description>
+    <packaging>jar</packaging>
 	<url/>
 
 	<licenses>

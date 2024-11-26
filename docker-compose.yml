@@ -1,0 +1,11 @@
+services:
+  crud:
+    image: spring-boot/crud:1.0-SNAPSHOT
+    container_name: crud-rest-api
+    build:
+      dockerfile: Dockerfile
+    volumes:
+     - ./target/crud-0.0.1-SNAPSHOT.jar:/app/crud.jar
+    ports:
+     - "8080:8080"
+
